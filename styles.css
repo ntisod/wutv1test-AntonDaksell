@@ -19,6 +19,14 @@ p {
     color: #000000;
 }
 
+.låter a {
+    text-decoration: none;
+    color: #0035f5;
+}
+.låter a:hover {
+    text-decoration: underline;
+}
+
 header {
     background: #888787;
     padding: 1rem 0;
@@ -30,4 +38,7 @@ header {
   bottom: 20px;
   right: 20px;
   
+}
+.textp{
+    max-width: 500px;
 }
