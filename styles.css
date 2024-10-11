@@ -1,10 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ffffff;
-    
-   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-    
-   
+    background-color:   #eddccb;
 }
 
 h1 {
@@ -13,6 +9,7 @@ h1 {
     text-align: center;
 
 }
+
 
 p {
 
@@ -28,7 +25,7 @@ p {
 }
 
 header {
-    background: #888787;
+    background: #867c6a;
     padding: 1rem 0;
     
 }
@@ -41,4 +38,11 @@ header {
 }
 .textp{
     max-width: 500px;
+    
 }
+.border {
+    border: 3px solid #000000;
+    padding: 5px;
+    max-width: 220px;
+  }
+  
