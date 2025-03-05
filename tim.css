@@ -1,0 +1,47 @@
+body{
+    background-color: beige
+}
+
+.textp {
+    max-width: 700px;
+}
+
+@media screen and (min-width: 600px) {
+
+    .img {
+        position: fixed;
+        float:right;
+        bottom: 200px;
+        right: 20px;
+        border: solid;
+        padding: 10px;
+    }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7b5303;
+    font-style: italic;
+    text-align: center;
+  }
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(201, 198, 139);
+    color: black;
+
+}
