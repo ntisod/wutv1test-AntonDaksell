@@ -12,3 +12,33 @@ div {
     padding-bottom: 50px;
     padding-left: 80px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7b5303;
+  }
+
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(201, 198, 139);
+    color: black;
+
+}
+
+li:last-child {
+    border-right: none;
+}
